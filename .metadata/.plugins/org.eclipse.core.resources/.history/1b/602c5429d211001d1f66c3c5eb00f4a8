@@ -1,0 +1,13 @@
+package aulas;
+
+public class TerceiroExercicio {
+
+	/*Atividade operadores aritméticos */
+	/*1-Faça um Programa que peça dois números e imprima a soma;*/
+
+			
+			Scanner leia = new Scanner(System.in).useLocale(Locale.US);
+			
+		}
+
+	}

@@ -1,0 +1,24 @@
+package aulas;
+
+public class PrimeiroExercicio {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int numero1 = 13;
+		int numero2 = 10;
+		
+		System.out.println("Número 1:" + " " + numero1);
+		System.out.println("Número 2:" + " " + numero2);
+		
+		String nome = "Clavinho";
+		int idade = 1;
+		Double dinheiro = 50.10;
+		boolean verdadeiro = true;
+		boolean falso = false;
+		
+		System.out.println("Nome " + nome + " tem " + idade + "ano de idade," + "\n" + "e tem de dinheiro R$" + dinheiro + "de bife de carne no mine.");
+		
+	}
+
+}
