@@ -15,16 +15,16 @@ public class Program {
 		
 		char option;
 		
-		System.out.println("Entre com o nome do herói: ");
+		System.out.println("Informe o nome do herói: ");
 		heroi.setNomeDeHeroi(sc.nextLine());
 		
 		System.out.println("Qual universo pertence (marvel, dc..): ");
 		heroi.setUniversoPertence(sc.nextLine());
 		
-		System.out.println("Entre com a identidade secreta: ");
+		System.out.println("Informe a identidade secreta: ");
 		heroi.setIdentidadeSecreta(sc.nextLine());
 		
-		System.out.println("Entre com o planeta natal: ");
+		System.out.println("Informe o planeta natal: ");
 		heroi.setPlanetaNatal(sc.nextLine());
 		
 		System.out.println("Pertence a um grupo ou liga, qual: ");
@@ -71,7 +71,7 @@ public class Program {
 			System.out.println("comando incorreto!");
 			break;
 		}
-		
+		System.out.println("----------------------------------------");
 		System.out.println(heroi);
 
 		sc.close();
